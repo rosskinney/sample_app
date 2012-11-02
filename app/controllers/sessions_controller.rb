@@ -1,5 +1,5 @@
 class SessionsController < ApplicationController
-
+  # comments to force commit update on 11/02/2012
  def new
   end
 
