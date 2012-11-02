@@ -22,6 +22,8 @@ SampleApp::Application.configure do
 
   # Force all access to the app over SSL, use Strict-Transport-Security, 
   # and use secure cookies.
+  # Force all access to the app over SSL, use Strict-Transport-Security, 
+  # and use secure cookies.  Add on 11/02/2012
   config.force_ssl = true
 
   # Defaults to nil and saved in location specified by config.assets.prefix
