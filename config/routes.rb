@@ -1,4 +1,4 @@
-SampleApp::Application.routes.draw do
+SampleApp::Application.routes.draw do  # add changes
   resources :users
   resources :sessions, only: [:new, :create, :destroy]
 

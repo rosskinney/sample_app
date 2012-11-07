@@ -1,4 +1,4 @@
-# == Schema Information
+# == Schema Information  # add changes
 #
 # Table name: users
 #
