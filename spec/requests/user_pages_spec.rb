@@ -19,6 +19,7 @@ describe "User pages" do
     it { should have_selector('title', text: 'All users') }
     it { should have_selector('h1',    text: 'All users') }
 
+
     describe "pagination" do
       it { should have_selector('div.pagination') }
 
@@ -65,6 +66,12 @@ describe "User pages" do
 
     it { should have_selector('h1',    text: user.name) }
     it { should have_selector('title', text: user.name) }  
+
+    describe "microposts" do
+      it { should have_content(m1.content) }
+      it { should have_content(m2.content) }
+      it { should have_content(user.microposts.count) }
+    end
 
     describe "microposts" do
       it { should have_content(m1.content) }
